@@ -1,3 +1,8 @@
+body{
+    background-image: url("//unsplash.it/1071/1009");
+    background-size: cover;
+}
+
 td{
     border: 2px solid #333; 
     height: 100px;
@@ -13,7 +18,7 @@ table{
     position: absolute;
     left: 50%;
     margin-left: -155px;
-    top: 50px;
+    top: 150px;
 }
 table tr:first-child td {
     border-top: 0;
@@ -32,7 +37,7 @@ table tr td:last-child {
     background-color: rgba(205,133,63, 0.8);
     width: 200px;
     position: absolute;
-    top: 120px;
+    top: 170px;
     left: 50%;
     margin-left: -100px;
     padding-top: 50px;
@@ -41,4 +46,15 @@ table tr td:last-child {
     border-radius: 5px;
     color: white;
     font-size: 2em;
+}
+button{
+    top: 120px;
+    left: 16%;
+    position: absolute;
+}
+
+.twitter{
+top: 600px;
+margin-left: calc(50% - 90px);
+position: absolute;
 }
